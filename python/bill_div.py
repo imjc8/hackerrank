@@ -23,7 +23,7 @@ def bonAppetit(bill, k, b):
     # item anna did not eat
     skip_ind = k
 
-    # remove item from the bill
+    # remove item from the bill using index position
     del bill[k]
     
     # total from bill 
